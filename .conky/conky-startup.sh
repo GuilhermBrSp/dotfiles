@@ -1,8 +1,6 @@
 sleep 20s
 killall conky
-cd "/home/codus/.conky/CPUPanel"
-conky -c "/home/codus/.conky/CPUPanel/CPUPanel - 8 Core CPU" &
-cd "/home/codus/.conky/Conky Seamod"
-conky -c "/home/codus/.conky/Conky Seamod/conky_seamod" &
-cd "/home/codus/.conky/Green Apple Desktop"
-conky -c "/home/codus/.conky/Green Apple Desktop/Gotham" &
+cd "/home/guilherme/.conky/CPUPanel"
+conky -c "/home/guilherme/.conky/CPUPanel/CPUPanel - 8 Core CPU" &
+cd "/home/guilherme/.conky/LSD/lsd2"
+conky -c "/home/guilherme/.conky/LSD/lsd2/conkyrc" &
